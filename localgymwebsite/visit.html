@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visit the website</title>
+    <style>
+        body{
+            background-image:url("Banner-36.jpg");
+            background-size:contain;
+        }
+        li{padding:5px;
+            display:inline-block;
+            margin:2px;
+            /* width:20%; */
+            padding:20px;
+            height:1px;
+            background-color:khaki;
+            color:black;
+            border:2px solid rgb(28,56,89);
+        }
+        li:hover{
+            background-color:pink;
+            color:purple;
+        }
+        ul{
+            overflow:auto;
+        }
+        #reviews{
+            position:absolute;
+            bottom:40px;
+            left:800px;
+            font-style:cursive;
+            color:black;
+            background-color:khaki;
+            border:2px solid black;
+        }
+        .content{
+            color:khaki;
+            width:500px;
+            font-size:20px;
+            font-style:cursive;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">fitness calculator</a></li>
+       
+    </ul>
+    <div class="content">
+        <p> Exercise controls weight
+            Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity, you burn calories. The more intense the activity, the more calories you burn.
+            
+            Regular trips to the gym are great, but don't worry if you can't find a large chunk of time to exercise every day. Any amount of activity is better than none at all. To reap the benefits of exercise, just get more active throughout your day — take the stairs instead of the elevator or rev up your household chores. Consistency is key
+            
+            
+             </p>
+
+    </div>
+    <form action="form.php">
+        <textarea name="review"id="reviews"cols="30"rows="10"placeholder="give us some reviews"></textarea>
+    </form>
+
+    
+    
+</body>
+</html>
